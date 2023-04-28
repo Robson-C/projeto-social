@@ -32,3 +32,39 @@ section#telefone {
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+
+
+section#redes-sociais img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    transition: transform 0.3s; /*Quando sai do hover ele volta de vagar tbm*/
+}
+
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    transform: translate(-3px, -3px) scale(1.1); /* usar mais de 1 transform vai 1 do lado do outro sem separar com ","*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s, border 0.4s,; /*eu escolho a opção da transição e o tempo q leva pra ela acontecer*/
+}
+
+
+
+
